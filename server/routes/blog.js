@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post("/addBlogPost", verify, blogController.addBlogPost);
 
-router.get("/getBlogs", verify, blogController.getAllPosts);
+router.get("/getBlogs", blogController.getAllPosts);
 
 router.get("/getBlogPost/:blogId", blogController.getPostById);
 
@@ -18,7 +18,6 @@ router.delete("/:blogId/deleteBlogPost", verify, verifyAdmin, blogController.del
 router.post("/addComment", verify, blogController.addComment);
 
 router.get("/getComments/:blogId", verify, blogController.getComments);
-
 
 
 module.exports = router;
