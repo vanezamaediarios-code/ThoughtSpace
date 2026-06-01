@@ -2,7 +2,7 @@
 
 ## App Base URL
 
-https://render-link.onrender.com
+https://thoughtspace-1.onrender.com
 
 ---
 
