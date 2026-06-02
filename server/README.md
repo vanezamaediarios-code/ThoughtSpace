@@ -18,6 +18,10 @@ email: "vase@mail.com"
 
 password: "password"
 
+email: "flask@mail.com"
+
+password: "password"
+
 ---
 
 ## References
